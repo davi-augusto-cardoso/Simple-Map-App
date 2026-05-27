@@ -1,0 +1,15 @@
+# Interface Web
+streamlit==1.32.0
+
+# Manipulação de Dados Geográficos e Grafos
+osmnx>=1.9.0
+networkx>=3.0
+geopandas>=0.14.3
+shapely>=2.0.0
+
+# Renderização de Mapas e Interatividade
+folium>=0.15.0
+streamlit-folium>=0.18.0
+
+# Motor de leitura/escrita para arquivos .parquet (Necessário para o Geopandas)
+pyarrow>=15.0.0
